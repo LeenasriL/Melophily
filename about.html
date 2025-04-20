@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" type="image/x-icon" href="logo-no-background.png">
+<style>
+    body{
+    background-color: black;
+    position: absolute;
+    align-items: center;
+}
+.image {
+ /* Set maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    text-align: center; /* Align text in the center */
+  }
+
+  img {
+    width: 1000px; /* Make sure the image doesn't exceed its container */
+    height: 400px; /* Maintain aspect ratio */
+    display: block; /* Ensure the image is displayed as a block element */
+    border-radius: 0%;
+    align-items: center;
+    margin: 20px; /* Center the image horizontally and add some bottom margin */
+  }
+
+  .p{
+    font-size: 16px; /* Adjust the font size of the paragraph */
+    line-height: 1.5; /* Adjust the line height for readability */
+    margin-bottom: 20px;
+    top:1000px;
+    height: 100px;
+    width: 900px;
+    margin: 20px 20px 20px 20px; /* Center the container horizontally */
+    padding: 20px 20px 20px 20px; /* Add some padding for spacing */
+    text-align: center; /* Align text in the center */
+    color: azure; /* Add some bottom margin for spacing */
+  }
+</style>    
+</head>
+<body>
+  <audio autoplay loop="true">
+    <source src="Bern.mp3" type="audio/mpeg">
+  </audio>
+<!-- Audio element with an ID for JavaScript control -->
+<audio id="myAudio">
+    <source src="mixkit-dropping-keys-in-the-floor-2839.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+</audio>
+
+ <script>
+    function playSound() {
+        // Get the audio element
+        var audio = document.getElementById("myAudio");
+
+        // Check if the audio is paused, then play it
+        if (audio.paused) {
+            audio.play();
+        } else {
+            // If already playing, rewind to the beginning
+            audio.currentTime = 0;
+        }
+    }
+</script>
+
+<div class="image ">
+<img src='background.png' onclick="playSound()"
+alt="Music Website Image"/></div>
+<div class="p">
+              <p>About Us</p>
+              <p>
+                Welcome to MElophily Your Global Melodic Journey!
+                 </p>
+                 <p>   
+                 Explore the Harmonies of the World
+                </p>
+               <p> Dive into the rich tapestry of music from the heart of India, the soul of Europe, and the rhythmic landscapes of Asia, all in one place MElophily. We bring you a vibrant fusion of cultures through a diverse collection of Indian, European, and Asian music that transcends borders and connects hearts.
+</p>                
+                <p> Connect through Melodies, Discover through Rhythms</p>
+                
+                <p>MElophily is more than just a platform; it's a musical sanctuary where enthusiasts, connoisseurs, and curious minds come together to share and discover the magic of sound. Immerse yourself in the melodies, sway to the rhythms of European classical compositions, and journey through the evocative tunes of Asian traditions.
+
+  </p><p>Melody transcends borders and cultures unite through the universal language of music. MElophily is a harmonious blend of Asian, European, and Indian music, offering a rich tapestry of sounds and rhythms that resonate with the soul.
+   we celebrate the cultural heritage of Asia, Europe, and India, presenting a kaleidoscope of musical genres and styles. From the enchanting sitar melodies of India to the rhythmic beats of traditional European folk music, and the mesmerizing tunes of Asian instruments, our collection embodies the beauty and diversity of musical expression from around the world.
+  Immerse yourself in a world of musical treasures as you navigate through our extensive library of songs, albums, and playlists. Whether you're in the mood for the soulful ballads of Bollywood, the classical symphonies of Europe, or the enchanting melodies of Asian folk music, you'll find a treasure trove of audio delights to indulge your senses.
+  Join us on a melodic journey across continents and cultures, where music knows no boundaries and every note tells a story. Whether you're a seasoned music aficionado or a curious explorer, our webpage invites you to embark on a musical odyssey unlike any other. Let the rhythm guide you, the melody inspire you, and the harmony unite you as we celebrate the universal language of music together. Welcome to our musical oasis, where the world comes alive with the sounds of Asia, Europe, and India.
+               </p>
+      
+</div>        
+
+
+</body>
+</html>

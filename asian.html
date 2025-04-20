@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Asian Music</title><link rel="icon" type="image/x-icon" href="logo-no-background.png">
+<style>
+  #s{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(62, 5, 112);
+    border-radius: 45px;
+  }
+.audio1{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 150px;;
+    left: 1100px;
+  }
+  .audio2{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 270px;;
+    left: 1100px;
+  }
+  .audio3{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 450px;;
+    left: 1100px;
+  }
+  .audio4{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 580px;;
+    left: 1100px;
+  }
+  .audio5{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 750px;;
+    left: 1100px;
+  }
+  .audio6{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 900px;;
+    left: 1100px;
+  }
+  .audio7{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 1050px;;
+    left: 1100px;
+  }
+  .audio8{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 1250px;;
+    left: 1100px;
+  }
+  .audio9{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 1450px;;
+    left: 1100px;
+  }
+  .audio10{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 1600px;;
+    left: 1100px;
+  }
+audio {
+    width: 350px;
+    height: 100%;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+h3,h4{
+  color: rgb(62, 5, 112);
+  font-style: italic;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800; 
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2); 
+  border-radius: 15px;
+  padding: 20px;transition: 0.2s;
+  width: 320px;
+  height:250px;
+  top:430px;
+  cursor: pointer;
+  left:700px;
+  position: absolute;
+}
+.card:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 320px;cursor: pointer;
+  top:1030px;
+  height: 270px;
+  border-radius: 15px;
+  padding: 20px;
+  left:300px;
+  position:absolute;
+}
+
+.card1:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card2 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;cursor: pointer;
+  width: 320px;
+  height:250px;
+  left:300px;
+  top:130px;
+  border-radius: 15px;
+  padding: 20px;
+  position:absolute;
+}
+.card2 img{
+  width: 300px;
+  height:220px;
+}
+.card2:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card3 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;cursor: pointer;
+  height: 380px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 200px;
+  top:1380px;
+  left:300px;
+  position: absolute;
+}
+.card3 img
+{
+  height:360px;
+  width:0px;
+}
+.card3:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card4 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 320px;
+  height:250px;
+  top:430px;
+left:300px;
+  border-radius: 15px;
+  padding: 20px;cursor: pointer;
+  position: absolute;
+  
+}
+
+.card4:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card5 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 320px;
+  height:250px;
+  border-radius: 15px;
+  padding: 20px;
+  left:700px;
+  top:130px;cursor: pointer;
+  position: absolute;
+}
+
+.card5:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card6 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 320px;
+  height:250px;cursor: pointer;
+  top:730px;
+  border-radius: 15px;
+  padding: 20px;
+left:300px;
+  position: absolute;
+}
+
+.card6:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card7 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;cursor: pointer;
+  width:320px;
+  height: 360px;
+  top:1380px;
+  border-radius: 15px;
+  padding: 20px;
+  position: absolute;
+  left:700px;
+
+}
+
+.card7:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card8 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;cursor: pointer;
+  width: 320px;
+  height:250px;
+  top:730px;
+  border-radius: 15px;
+  padding: 20px;
+  left:700px;
+  position: absolute;
+}
+
+.card8:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card9 {
+
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 320px;
+  height:270px;
+  border-radius: 15px;cursor: pointer;
+  padding: 20px;
+  top:1030px;
+  left:700px;
+  position: absolute;
+}
+
+.card9:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}
+.pi{
+  height: 1000px;
+  top:110px;
+  font-family: 'Times New Roman', Times, serif;
+  left:30px;
+  position: absolute;
+  width: 250px;
+  color: rgb(62, 5, 112);
+
+} 
+h2{
+            top:0px;
+            left:530px;
+            position: absolute;
+            color:rgb(62, 5, 112);
+            font-size: 50px;
+            transition: 0.5s;
+            font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -3px 2px, rgba(0,0,0,0.8) 0 30px 25px;
+  transition: margin-left 0.3s cubic-bezier(0, 1, 0, 1);
+        }
+</style>
+</head>
+<body>
+
+<h2>ASIAN &emsp;MUSIC</h2>
+
+<div class="card">
+  <img src="asianmusicErhu.jpeg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Erhu</b></h4>
+  </div>
+</div>
+<div class="card1">
+  <img src="asianmusicGuzhengZheng.jpeg" alt="Avatar" style="width:100%">
+  <div class="container1">
+    <h4><b>Gu Zheng</b></h4> 
+    </div>
+</div>
+<div class="card2">
+  <img src="asianmusicPipa.jpeg" alt="Avatar" style="width:100%">
+  <div class="container2">
+    <h4><b>Pipa</b></h4> 
+  </div>
+  </div>
+
+  <div class="card3">
+  <img src="asianmusicsarod.jpeg" alt="Avatar" style="width:100%">
+  <div class="container3">
+    <h4><b>Sarod</b></h4>
+  </div>
+  </div>
+  <div class="card4">
+  <img src="asianmusicSaung.jpeg" alt="Avatar" style="width:100%">
+  <div class="container4">
+    <h4><b>Saung</b></h4> 
+  </div>
+  </div>
+  <div class="card5">
+  <img src="Bianzhong.jpeg" alt="Avatar" style="width:100%" onclick="playSound()">
+  <div class="container5">
+    <h4><b>Bianzhong</b></h4> 
+  </div>
+</div>
+<div class="card6">
+ 
+  <img src="Cong Chieng (Vietnamese Gong).jpeg" alt="Avatar" style="width:100%">
+  <div class="container6">
+  <h4><b>Cong Chieng</b></h4></div>
+</div>
+<div class="card7">
+  <img src="Gu.jpeg" alt="Avatar" style="width:100%">
+  <div class="container7">
+    <h4><b>Gu</b></h4> 
+  </div>
+</div>
+<div class="card8">
+  <img src="Guqin.jpeg" alt="Avatar" style="width:100%">
+  <div class="container8">
+    <h4><b>Guqin</b></h4> 
+  </div>
+</div>
+<div class="card9">
+  <img src="koto.jpeg" alt="Avatar" style="width:100%">
+  <div class="container9">
+    <h4><b>Koto</b></h4> 
+  </div>
+</div>
+
+<audio id="myAudio">
+  <source src="mixkit-dropping-keys-in-the-floor-2839.mp3" type="audio/mp3">
+  Your browser does not support the audio tag.
+</audio>
+
+
+
+<div class="pi">
+  <p>The <b>pipa</b> (琵琶) is a traditional Chinese musical instrument belonging to the plucked category of instruments. Sometimes called the "Chinese lute", the instrument has a pear-shaped wooden body with a varying number of frets ranging from 12 to 31.
+    </p>
+    <p><b>Bianzhong</b> (編鐘) is an ancient Chinese musical instrument consisting of a set of bronze bells, played melodically. China is the earliest country to manufacture and use musical chimes. They are also called Chime Bells.
+      </p>
+      <br>
+<p>The <b>saung</b> ( စောင်း also known as the saung-gauk (စောင်းကောက်), Burmese harp, Burma harp, or Myanmar harp), is an arched harp used in traditional Burmese music. The saung is regarded as a national musical instrument of Burma.</p>
+<p>The <b>erhu</b> is a Chinese two-stringed bowed musical instrument, more specifically a spike fiddle, which may also be called a Southern Fiddle/</p>
+<br>
+<p>The<b> Cong Chieng</b> is a kind of musical instrument casted from mixed copper and belongs to the idiophonic family. In Vietnamese language, the word “Cong” points to a musical instrument with a bossed part in center (bossed gong) and “Chieng” without it (flat gong).</p>
+<p><b>Guqin</b> has been played since ancient times, and has traditionally been favored by educated people as an instrument of great beauty and refinement.</p>
+<br>
+<p><b>Guzheng</b> is the romanization of 古箏. 古 (gǔ) means old or ancient. 筝 (zhēng) refers to a zither-type instrument, something with strings stretched between two bridges. The two together, "guzheng", means a zither with fixed bridges on both ends and moveable bridges in the center. </p>
+<p>The <b>koto</b>, a type of Japanese zither.The koto was introduced from China, and as a standard, has 13 strings.  Aside from the standard 13 string koto there is also a 7 string kin (chinese “qin”) and a 6 string koto called yamatogoto or wagon.</p>
+<br>
+<p>The <b>sarod</b> is a stringed instrument, used in Hindustani music on the Indian subcontinent.It is among the most popular and prominent instruments.[1] It is known for a deep, weighty, introspective sound, in contrast with the sweet, overtone-rich texture of the sitar, with sympathetic strings that give it a resonant, reverberant quality.</p>
+<p><b>Gu</b>, any of several sizes and shapes of Chinese drum, with a body that is usually made of wood and a head that is usually made of animal skin. Two-headed gu may be barrel-shaped, cylindrical, or hourglass-shaped. Single-headed gu, such as the bangu, may be in the shape of a deep or shallow basin.</p>
+</div>
+  
+  
+
+<div class="audio1">
+  <audio controls id="s">
+    <source src="pipa.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+  <h3>Pipa</h3>
+  </div>
+  <div class="audio2">
+    <audio controls id="s">
+      <source src="bianzhong.mp3" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
+    <h3>Bianzhong</h3>
+    </div>
+    <div class="audio3">
+      <audio controls id="s">
+        <source src="Saung.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+      </audio>
+      <h3>Saung</h3>
+      </div>
+      <div class="audio4">
+        <audio controls id="s">
+          <source src="erhu.mp3" type="audio/mp3">
+          Your browser does not support the audio tag.
+        </audio>
+        <h3>Erhu</h3>
+        </div>
+        <div class="audio5">
+          <audio controls id="s">
+            <source src="Tieng-danh-cong-chieng-vang-vong-www_tiengdong_com.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+          </audio>
+          <h3>Cong Chieng</h3>
+          </div>
+          <div class="audio6">
+            <audio controls id="s">
+              <source src="free-sound-1675084424.mp3" type="audio/mp3">
+              Your browser does not support the audio tag.
+            </audio>
+            <h3>Guqin</h3>
+            </div>
+            <div class="audio7">
+              <audio controls id="s">
+                <source src="guzheng.mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+              </audio>
+              <h3>Gu Zheng</h3>
+              </div>
+              <div class="audio8">
+                <audio controls id="s">
+                  <source src="Koto.mp3" type="audio/mp3">
+                  Your browser does not support the audio tag.
+                </audio>
+                <h3>Koto</h3>
+                </div><div class="audio9">
+                  <audio controls id="s">
+                    <source src="sarod.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                  </audio>
+                  <h3>Sarod</h3>
+                  </div>
+                  <div class="audio10">
+                    <audio controls id="s">
+                      <source src="gu.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                    </audio>
+                    <h3>Gu</h3>
+                    </div>
+</body>
+</html> 
