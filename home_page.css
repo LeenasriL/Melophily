@@ -1,0 +1,133 @@
+html,body{ position:absolute;
+height: 100%;
+width: 100%;
+margin-left: 0px;
+padding-left: 0px;
+}
+ /* CSS styles for the footer */
+ .share-icons {
+  top: 900px;
+  right:500px;
+  margin: 10px;
+
+}
+
+
+.share-icon img {
+  width: 40px; /* Adjust size as needed */
+  height: 40px;
+}
+  footer {
+      background-color: #000000;
+      color: #fff;
+      width: 1435px;
+      height:250px; /* Use percentage for container width */ /* Limit the maximum width of the container */
+      text-align:center;
+      position: absolute;
+      top: 900px;
+      margin-top: 98px;
+      padding: 0%;
+      position: absolute;
+  }
+  footer a {
+    width: 100%; /* Use percentage for container width */ /* Limit the maximum width of the container */
+    color: #fff;
+    text-decoration: none;
+  }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .element {
+      width: calc(50% - 20px); /* Adjust width for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media screen and (max-width: 480px) {
+  .element {
+      width: calc(100% - 20px); /* Adjust width for mobile screens */
+  }
+}
+header {
+  background-color: #000000;
+  color: #fff;
+  text-align: center;
+  width: 1435px;
+  height:50px; /* Use percentage for container width */ /* Limit the maximum width of the container */
+  text-align:center;
+  position: fixed;
+  top: 0px;
+}
+/* Set the color you desire */
+.n {
+    font-size:larger;
+    transition: all 0.3s easy;
+    color: #8f0541;
+    text-decoration: none; 
+    position: relative;;
+  }
+	.n::before {
+		content: ' ';
+		position: absolute;
+		width: 100%;
+		height: 4px;
+		border-radius: 4px;
+		background-color: var(--text);
+		bottom: 0;
+		left: 0;
+		transform-origin: right;
+		transform: scaleX(0);
+		transition: transform .3s ease-in-out;
+	}
+.n:hover{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#ffffff;
+    border-bottom: thick #ffffff ;
+    text-decoration:solid;
+    transform-origin: left;
+		transform: scaleX(2);
+    width: 40%;
+    text-shadow: 18px 13px 14px #f1fff2;
+    font-style: bold;
+    font-weight: 200;
+}
+
+.boxed-word{
+  transform: translate(50%,-50%);
+  text-transform: uppercase;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 4em;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #ffffff,
+      1px 2px 1px #ffffff,
+      1px 3px 1px #ffffff,
+      1px 4px 1px #ffffff,
+      1px 5px 1px #ffffff,
+      1px 6px 1px #ffffff,
+      1px 7px 1px #ffffff,
+      1px 8px 1px #ffffff,
+      1px 9px 1px #ffffff,
+      1px 10px 1px #ffffff,
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
+}
+.image{
+    background-image: url('marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 1435px;
+    margin-top: 42px;
+    height:1000px;
+    top:550px;
+}
+.slo p{
+  text-align: center;
+  font-size: 2em;
+  color: antiquewhite;
+}
+.l{
+  display: inline;
+  margin-left: 50px;
+}

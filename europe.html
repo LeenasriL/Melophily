@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>European Music</title><link rel="icon" type="image/x-icon" href="logo-no-background.png">
+<style>
+  #s{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(2, 108, 103);
+    border-radius: 45px;
+  }
+.audio1{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 200px;;
+    left: 1100px;
+  }
+  .audio2{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 350px;;
+    left: 1100px;
+  }
+  .audio3{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 600px;;
+    left: 1100px;
+  }
+  .audio4{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 750px;;
+    left: 1100px;
+  }
+  .audio5{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 950px;;
+    left: 1100px;
+  }
+  .audio6{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 1100px;;
+    left: 1100px;
+  }
+  .audio7{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 1300px;;
+    left: 1100px;
+  }
+  .audio8{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 1450px;;
+    left: 1100px;
+  }
+  .audio9{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 1600px;;
+    left: 1100px;
+  }
+  .audio10{
+    width: 300px;
+    text-align: center;
+    height: 50px;
+    position: absolute;
+    top: 1700px;;
+    left: 1100px;
+  }
+  html,body{
+    height: 100%;
+    width: 100%;
+  }
+audio {
+    width: 350px;
+    height: 100%;
+}
+h3,h4{
+  color: rgb(2, 108, 103);
+  font-style: italic;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 800; 
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2); 
+  border-radius: 15px;
+  padding: 20px;transition: 0.2s;
+  width: 240px;
+  height:300px;
+  top:550px;
+  left:700px;
+  position: absolute;
+}
+.card:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}
+.card img{
+    width:300px;
+    height:270px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 240px;
+  top:1260px;
+  height: 240px;
+  border-radius: 15px;
+  padding: 20px;
+  left:300px;
+  position:absolute;
+}
+
+.card1:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}
+
+.card1 img{
+    width:300px;
+    height:200px;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 240px;
+  height:310px;
+  left:300px;
+  top:180px;
+  border-radius: 15px;
+  padding: 20px;
+  position:absolute;
+}
+.card2 img{
+    width:300px;
+    height:280px;
+}
+.card2:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card3 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  height: 240px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 240px;
+  top:1550px;
+  left:300px;
+  position: absolute;
+}
+.card3 img
+{
+  height:200px;
+  width:300px;
+}
+.card3:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card4 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 240px;
+  height:300px;
+  top:550px;
+left:300px;
+  border-radius: 15px;
+  padding: 20px;
+  position: absolute;
+  
+}
+
+.card4 img{
+    width:300px;
+    height:270px;
+}
+.card4:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card5 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 240px;
+  height:310px;
+  border-radius: 15px;
+  padding: 20px;
+  left:700px;
+  top:180px;
+  position: absolute;
+}
+
+.card5 img{
+    width:300px;
+    height:280px;
+}
+.card5:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card6 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 240px;
+  height:300px;
+  top:910px;
+  border-radius: 15px;
+  padding: 20px;
+left:300px;
+  position: absolute;
+}
+
+.card6 img{
+    width:130px;
+    height:270px;
+}
+.card6:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card7 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width:240px;
+  height: 240px;
+  top:1550px;
+  border-radius: 15px;
+  padding: 20px;
+  position: absolute;
+  left:700px;
+
+}
+
+.card7 img{
+    width:300px;
+    height:200px;
+}
+.card7:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card8 {
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 240px;
+  height:300px;
+  top:910px;
+  border-radius: 15px;
+  padding: 20px;
+  left:700px;
+  position: absolute;
+}
+
+.card8 img{
+    width:30px;
+    height:270px;
+}
+.card8:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}.card9 {
+
+  box-shadow: 0 4px 8px 0 rgba(8, 8, 8, 0.2);
+  transition: 0.2s;
+  width: 240px;
+  height:240px;
+  border-radius: 15px;
+  padding: 20px;
+  top:1260px;
+  left:700px;
+  position: absolute;
+}
+
+.card9 img{
+    width:300px;
+    height:200px;
+}
+.card9:hover {
+  box-shadow: 2px 8px 16px 0 rgba(33, 32, 32, 0.2);
+}
+
+.pi{
+  height: 1000px;
+  top:170px;
+  left:30px;
+  position: absolute;
+  width: 250px;
+  color:rgb(2, 108, 103);
+
+} 
+h2{
+            top:0px;
+            left:530px;
+            position: absolute;
+            color: rgb(2, 108, 103);
+            font-size: 50px;
+            transition: 0.5s;
+            font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -3px 2px, rgba(0,0,0,0.8) 0 30px 25px;
+  transition: margin-left 0.3s cubic-bezier(0, 1, 0, 1);
+        }
+</style>
+</head>
+<body>
+
+<h2>EUROPEAN&emsp;MUSIC</h2>
+
+<div class="card">
+  <img src="Cimbalom.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Cimbalom</b></h4>
+  </div>
+</div>
+<div class="card1">
+  <img src="guitar.jpg" alt="Avatar" style="width:100%">
+  <div class="container1">
+    <h4><b>Guitar</b></h4> 
+    </div>
+</div>
+<div class="card2">
+  <img src="harp1.jpg" alt="Avatar" style="width:100%">
+  <div class="container2">
+    <h4><b>Harp</b></h4> 
+  </div>
+  </div>
+
+  <div class="card3">
+  <img src="nai.png" alt="Avatar" style="width:100%">
+  <div class="container3">
+    <h4><b>Nai</b></h4>
+  </div>
+  </div>
+  <div class="card4">
+  <img src="Oboe.jpg" alt="Avatar" style="width:100%">
+  <div class="container4">
+    <h4><b>Oboe</b></h4> 
+  </div>
+  </div>
+  <div class="card5">
+  <img src="ocarina-2614469_1280.jpg" alt="Avatar" style="width:100%">
+  <div class="container5">
+    <h4><b>Ocarina</b></h4> 
+  </div>
+</div>
+<div class="card6">
+  <img src="saxophone.jpg" alt="Avatar" style="width:100%">
+  <div class="container6">
+    <h4><b>Saxophone</b></h4>
+  </div>
+</div>
+<div class="card7">
+  <img src="Ukulele.jpg" alt="Avatar" style="width:100%">
+  <div class="container7">
+    <h4><b>Ukulele</b></h4> 
+  </div>
+</div>
+<div class="card8">
+  <img src="violin.jpg" alt="Avatar" style="width:100%">
+  <div class="container8">
+    <h4><b>Violin</b></h4> 
+  </div>
+</div>
+<div class="card9">
+  <img src="piano.jpg" alt="Avatar" style="width:100%">
+  <div class="container9">
+    <h4><b>Piano</b></h4> 
+  </div>
+</div>
+
+
+<div class="pi">
+<p>
+  The <b>harp</b> is a stringed musical instrument that has individual strings running at an angle to its soundboard; the strings are plucked with the fingers. Harps can be made and played in various ways, standing or sitting, and in orchestras or concerts.
+</p> 
+<p><b>Ocarina</b> is a wind musical instrument; it is a type of vessel flute.Variations exist, but a typical ocarina is an enclosed space with four to twelve finger holes and a mouthpiece that projects from the body. </p>
+<br>
+<br>
+<br>
+<p>The <b>oboe</b> is a long, slender wooden tube, widening out into a bell shape at the end. Attached to the wood are metal keys which are operated by the musician’s fingers to open and close holes along the length of the tube. </p>
+
+<p><b>Cimbalom</b>, an elaborate stringed instrument of the dulcimer family used in small music ensembles by central European Roma (Gypsies). The instrument has a trapezoidal body that stands on four legs. It has a chromatic range of four octaves and, unlike other dulcimers, a pedal mechanism for damping the strings.</p>
+<br>
+<p><b>The saxophone</b> is a type of single-reed woodwind instrument with a conical body, usually made of brass. As with all single-reed instruments, sound is produced when a reed on a mouthpiece vibrates to produce a sound wave inside the instrument's body. </p>
+
+<p><b>Violin</b>, bowed stringed musical instrument that evolved during the Renaissance from earlier bowed instruments: the medieval fiddle; its 16th-century Italian offshoot, the lira da braccio; and the rebec. The violin is probably the best known and most widely distributed musical instrument in the world.</p>
+<br>
+<p><b>Guitar</b>, plucked stringed musical instrument that probably originated in Spain early in the 16th century, deriving from the guitarra latina, a late-medieval instrument with a waisted body and four strings. The early guitar was narrower and deeper than the modern guitar, with a less pronounced waist. </p>
+
+<p><b>Piano</b>, a keyboard musical instrument having wire strings that sound when struck by felt-covered hammers operated from a keyboard. The standard modern piano contains 88 keys and has a compass of seven full octaves plus a few keys.</p>
+<br>
+<p>A <b>Romanian</b> diatonic pan flute called the nai, with 27 pipes.  These panpipe flutes have been used since the 17th century.  The wooden pipes are arranged in a curved array, making it easier to move from one pipe to the other. </p>
+<p>The <b>ukulele</b> also called a uke, is a member of the lute family of instruments of Portuguese origin and popularized in Hawaii. It generally employs four nylon strings.</p>
+</div>
+  
+
+
+<div class="audio1">
+  <audio controls id="s">
+    <source src="harp-transition-music-cue-6984.mp3" type="audio/mp3">
+    Your browser does not support the audio tag.
+  </audio>
+  <h3>Harp</h3>
+  </div>
+  <div class="audio2">
+    <audio controls id="s">
+      <source src="ocarina-flute-fun-tunes-176659.mp3" type="audio/mp3">
+      Your browser does not support the audio tag.
+    </audio>
+    <h3>Ocarina</h3>
+    </div>
+    <div class="audio3">
+      <audio controls id="s">
+        <source src="oboe-slow-improvisation-73115.mp3" type="audio/mp3">
+        Your browser does not support the audio tag.
+      </audio>
+      <h3>Oboe</h3>
+      </div>
+      <div class="audio4">
+        <audio controls id="s">
+          <source src="cimbalom-23587.mp3" type="audio/mp3">
+          Your browser does not support the audio tag.
+        </audio>
+        <h3>Cimbalom</h3>
+        </div>
+        <div class="audio5">
+          <audio controls id="s">
+            <source src="saxophone-chinese-melody-34978.mp3" type="audio/mp3">
+            Your browser does not support the audio tag.
+          </audio>
+          <h3>Saxophone</h3>
+          </div>
+          <div class="audio6">
+            <audio controls id="s">
+              <source src="violin-musicwav-71597.mp3" type="audio/mp3">
+              Your browser does not support the audio tag.
+            </audio>
+            <h3>Violin</h3>
+            </div>
+            <div class="audio7">
+              <audio controls id="s">
+                <source src="Guitar(chosic.com).mp3" type="audio/mp3">
+                Your browser does not support the audio tag.
+              </audio>
+              <h3>Guitar</h3>
+              </div>
+              <div class="audio8">
+                <audio controls id="s">
+                  <source src="piano.mp3" type="audio/mp3">
+                  Your browser does not support the audio tag.
+                </audio>
+                <h3>Piano</h3>
+                </div><div class="audio9">
+                  <audio controls id="s">
+                    <source src="pan_flute_romania.mp3" type="audio/mp3">
+                    Your browser does not support the audio tag.
+                  </audio>
+                  <h3>Nai</h3>
+                  </div>
+                  <div class="audio10">
+                    <audio controls id="s">
+                      <source src="ukulele-28640.mp3" type="audio/mp3">
+                      Your browser does not support the audio tag.
+                    </audio>
+                    <h3>Ukulele</h3>
+                    </div>
+
+
+</body>
+</html> 
